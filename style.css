@@ -80,7 +80,7 @@ diva {
     float: left;
     width: 20%;
     padding-left: 30px;
-    margin-right: 30px;
+    margin-right: 50px;
 
 }
 
@@ -122,11 +122,6 @@ button {
 }
 
 
-.fade-in {
-    opacity: 0;
-    transition: opacity;
-}
-
 
 
 img:hover {
@@ -135,7 +130,9 @@ img:hover {
 
 img {
     width: 100px;
-
+    display: grid;
     transition: transform 0.3s ease 0s;
     padding: 10%;
-}
+    padding-bottom: 50px;
+
+} 
