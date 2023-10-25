@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "nio";
+    src: url('./assets/Nind.ttf') format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+@font-face {
+    font-family: "crang";
+    src: url('./assets/Crang.ttf') format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+@font-face {
+    font-family: "bebasneue";
+    src: url('./assets/BebasNeue-Regular.ttf');
+    font-size: normal;
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "ACB";
+    src: url('./assets/ACB.ttf');
+    font-size: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "BAC";
+    src: url('./assets/BAC.ttf');
+    font-size: normal;
+    font-weight: normal;
+}
+
+container{
+    display: block;
+    padding-top: 40px;
+
+}
+
+
+
+div {
+    display: block;
+}
+
+h1 {
+    font-family: "nio";
+    font-size: 50px;
+}
+
+top {
+    display: block;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 150px;
+    background-color: #FB3640;
+}
+
+body {
+    margin: 0;
+
+}
+
+diva {
+    background-color: black;
+    display: block;
+}
+
+.footer
+{
+    position: fixed;
+    bottom: 0;
+    text-align: right;
+}
+
+.column {
+    display:table;
+    float: left;
+    width: 20%;
+    padding-left: 30px;
+    margin-right: 30px;
+
+}
+
+.calumn {
+    padding-top: 60px;
+    display:table;
+    float: left;
+    width: 30%;
+    padding-right: 50px;
+    font-family: "BAC";
+    font-size: 80%;
+}
+
+.celumn {
+    display:table;
+    float: left;
+    width: 20%;
+    padding-left: 30px;
+    margin-right: 30px;
+}
+
+headingly {
+    font-size: 60px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+   /*text-orientation: upright;*/
+   font-family: 'bebasneue';
+   font-size:90px;
+   line-height: 75px;
+
+}
+
+b {
+    font-weight: bolder;
+}
+
+button {
+    display: block;
+}
+
+
+.fade-in {
+    opacity: 0;
+    transition: opacity;
+}
+
+
+
+img:hover {
+    transform: translateY(-10px);
+}
+
+img {
+    width: 100px;
+
+    transition: transform 0.3s ease 0s;
+    padding: 10%;
+}
