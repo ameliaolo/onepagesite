@@ -1,3 +1,27 @@
+var img = getElementById("pac");
+width = img.get(0).width,
+screenWidth = $(window).width(),
+duration = 3500;
+
+function moveleft()
+{
+    document.getElementById("pac").animate(
+        {
+            "left":screenWidth
+        }
+    )
+    /*document.getElementById('pac');
+    width = img.get(0).width,
+    screenWidth = $(window).width(),
+    duration = 5000;
+
+    img.css("left", -width).animate({
+        "left": screenWidth
+    }, ); */
+
+}
+
+
 /*const observer = new IntersectionObserver((entries) = {
 
     entries.forEach((entry) => {
@@ -45,8 +69,8 @@ function complete() {
 }
 */
 
-var audio = new Audio ('./assets/powerUp.mp3');
+/*var audio = new Audio ('./assets/powerUp.mp3');
 
 function PlaySound() {
     onclick = document.getElementById('onepagesite/assets/powerUp.mp3').play();
-}
+}*/
