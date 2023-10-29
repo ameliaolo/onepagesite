@@ -113,7 +113,7 @@ diva {
 }
 
 headingly {
-    font-size: 85px;
+    font-size: 82px;
     writing-mode:vertical-rl;
     text-orientation:sideways; 
    font-family: 'bebasneue';
@@ -142,18 +142,19 @@ button {
     opacity: 60%;
 } 
 
+
 #pac {
     width: 75px;
     display: block;
 }
 
-#pack {
+
+.pack {
     padding: 25px 20px;
     border-top: black solid 18px;
     position: fixed;
     top: 0;
     width: 100%
-
 }
 
 .footer {
